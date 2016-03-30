@@ -1,3 +1,9 @@
+PATH
+  remote: components/app_component
+  specs:
+    app_component (0.0.1)
+      rails (~> 4.2.6)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -143,6 +149,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  app_component!
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)

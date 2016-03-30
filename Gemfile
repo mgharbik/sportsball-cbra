@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'app_component', path: 'components/app_component'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'

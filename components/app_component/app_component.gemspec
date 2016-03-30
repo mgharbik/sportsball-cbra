@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.name        = "app_component"
   s.version     = AppComponent::VERSION
   s.authors     = ["Gharbi Mohammed"]
-  s.email       = ["simo163@hotmail.co.uk"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of AppComponent."
-  s.description = "TODO: Description of AppComponent."
+  s.email       = ["mgharbik@gmail.com"]
+  s.homepage    = "https://github.com/simo163/sportsball-cbra"
+  s.summary     = "AppComponent."
+  s.description = s.summary
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
