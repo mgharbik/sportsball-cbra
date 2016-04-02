@@ -2,6 +2,9 @@ source 'https://rubygems.org'
 
 gem 'app_component', path: 'components/app_component'
 
+# Ensuring correct version of transitive dependency
+gem 'trueskill', git: 'https://github.com/benjaminleesmith/trueskill', ref: 'e404f45af5b3fb86982881ce064a9c764cc6a901'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
 # Use sqlite3 as the database for Active Record
