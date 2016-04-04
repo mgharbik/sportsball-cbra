@@ -1,3 +1,5 @@
+require 'rails_helper'
+
 RSpec.describe "Engine 'App'", :type => :feature do
   it "hooks up to /" do
     visit "/"
