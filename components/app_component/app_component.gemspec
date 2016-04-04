@@ -22,6 +22,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'trueskill'
 
   s.add_development_dependency 'sqlite3'
-  s.add_development_dependency 'rspec-rails'
+  s.add_development_dependency 'rspec-rails', '~> 3.4.2'
+  s.add_development_dependency 'capybara', '~> 2.6.2'
   s.add_development_dependency 'shoulda-matchers', '~> 3.1'
 end
