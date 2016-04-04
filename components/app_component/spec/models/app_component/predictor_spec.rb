@@ -6,7 +6,7 @@ RSpec.describe AppComponent::Predictor do
 
     @predictor = AppComponent::Predictor.new([@team1, @team2])
   end
-  
+
   it "predicts teams that have won in the past to win in the future" do
     game = create_game first_team: @team1, second_team: @team2, winning_team: 1
     @predictor.learn([game])
