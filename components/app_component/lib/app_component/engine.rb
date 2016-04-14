@@ -15,5 +15,7 @@ module AppComponent
       g.template_engine :slim
       # g.test_framework :rspec
     end
+
+    config.assets.precompile += %w( app_component/logo.png )
   end
 end
