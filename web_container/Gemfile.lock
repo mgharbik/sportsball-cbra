@@ -6,7 +6,7 @@ GIT
     trueskill (1.0.0)
 
 PATH
-  remote: components/app_component
+  remote: ../components/app_component
   specs:
     app_component (0.0.1)
       rails (~> 4.2.6)
