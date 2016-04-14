@@ -17,4 +17,5 @@
 /tmp
 
 # Others
-.idea/
+public/assets
+.idea
