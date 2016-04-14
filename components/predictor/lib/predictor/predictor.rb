@@ -1,4 +1,4 @@
-module AppComponent
+module Predictor
   class Predictor
     def initialize(teams)
       @teams_lookup = teams.inject({}) do |memo, team|
@@ -25,7 +25,7 @@ module AppComponent
       team1 = @teams_lookup[first_team.id][:team]
       team2 = @teams_lookup[second_team.id][:team]
       winner = higher_mean_team(first_team, second_team) ? team1 : team2
-      AppComponent::Prediction.new(team1, team2, winner)
+      Prediction.new(team1, team2, winner)
     end
 
     def higher_mean_team(first_team, second_team)

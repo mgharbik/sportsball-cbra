@@ -1,5 +1,7 @@
-require "predictor/version"
+require 'saulabs/trueskill'
 
 module Predictor
-  # Your code goes here...
+  require 'predictor/version'
+  require 'predictor/predictor'
+  require 'predictor/prediction'
 end

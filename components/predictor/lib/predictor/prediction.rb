@@ -1,4 +1,4 @@
-module AppComponent
+module Predictor
   class Prediction
     attr_reader :first_team, :second_team, :winner
 
