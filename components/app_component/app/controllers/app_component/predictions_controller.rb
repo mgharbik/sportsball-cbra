@@ -5,7 +5,7 @@ module AppComponent
     end
 
     def create
-      predictor = Predictor.new(AppComponent::Team.all)
+      predictor = Predictor::Predictor.new(AppComponent::Team.all)
       predictor.learn(AppComponent::Game.all)
       @prediction = predictor.predict(
           AppComponent::Team.find(params['first_team']['id']),

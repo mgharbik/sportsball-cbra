@@ -9,6 +9,7 @@ PATH
   remote: ../components/app_component
   specs:
     app_component (0.0.1)
+      jquery-rails (= 4.1.1)
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
       trueskill

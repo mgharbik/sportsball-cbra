@@ -2,7 +2,8 @@ RSpec.describe AppComponent::PredictionsController, :type => :controller do
   routes { AppComponent::Engine.routes }
 
   before do
-    @team1 = create_team @team2 = create_team
+    @team1 = create_team
+    @team2 = create_team
   end
 
   describe "GET new" do
@@ -17,8 +18,9 @@ RSpec.describe AppComponent::PredictionsController, :type => :controller do
       post :create,
            {first_team: {id: @team1.id}, second_team: {id: @team2.id}},
            {}
+
       prediction = assigns(:prediction)
-      expect(prediction).to be_a(AppComponent::Prediction)
+      expect(prediction).to be_a(Predictor::Prediction)
       expect(prediction.first_team).to eq(@team1)
       expect(prediction.second_team).to eq(@team2)
     end
