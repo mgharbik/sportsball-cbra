@@ -1,4 +1,4 @@
-module ObjectCreationMethods
+module AppComponent::ObjectCreationMethods
   def new_team(overrides = {})
     defaults = {
       name: "Some name #{counter}"

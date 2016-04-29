@@ -7,6 +7,7 @@ require 'shoulda/matchers'
 require 'database_cleaner'
 require 'capybara/rails'
 require 'capybara/rspec'
+require 'app_component/test_helpers'
 
 Dir[GamesAdmin::Engine.root.join("spec/support/**/*.rb")].each {|f| require f}
 
@@ -35,5 +36,5 @@ RSpec.configure do |config|
     end
   end
 
-  config.include ObjectCreationMethods
+  config.include AppComponent::ObjectCreationMethods
 end

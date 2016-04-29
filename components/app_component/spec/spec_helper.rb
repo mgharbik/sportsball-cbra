@@ -36,5 +36,5 @@ RSpec.configure do |config|
     end
   end
 
-  config.include ObjectCreationMethods
+  config.include AppComponent::ObjectCreationMethods
 end
