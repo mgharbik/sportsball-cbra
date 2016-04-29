@@ -4,6 +4,7 @@ ruby '2.3.0'
 path '../components' do
   gem 'app_component'
   gem 'games_admin'
+  gem 'teams_admin'
 end
 
 # Ensuring correct version of transitive dependency

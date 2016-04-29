@@ -19,6 +19,11 @@ PATH
       jquery-rails (= 4.1.1)
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
+    teams_admin (0.0.1)
+      app_component
+      jquery-rails (= 4.1.1)
+      rails (~> 4.2.6)
+      slim-rails (= 3.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -219,6 +224,7 @@ DEPENDENCIES
   sdoc (~> 0.4.0)
   spring
   sqlite3
+  teams_admin!
   trueskill!
   turbolinks
   uglifier (>= 1.3.0)

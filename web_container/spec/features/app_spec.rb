@@ -9,7 +9,6 @@ RSpec.describe "Engine 'App'", :type => :feature do
   end
 
   it "has teams" do
-    skip
     visit "/"
     click_link "Teams"
     within "main h1" do
