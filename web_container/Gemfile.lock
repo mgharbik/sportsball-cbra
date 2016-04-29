@@ -6,7 +6,7 @@ GIT
     trueskill (1.0.0)
 
 PATH
-  remote: ../components/app_component
+  remote: ../components
   specs:
     app_component (0.0.1)
       jquery-rails (= 4.1.1)
@@ -14,6 +14,11 @@ PATH
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
       trueskill
+    games_admin (0.0.1)
+      app_component
+      jquery-rails (= 4.1.1)
+      rails (~> 4.2.6)
+      slim-rails (= 3.0.1)
 
 GEM
   remote: https://rubygems.org/
@@ -205,6 +210,7 @@ DEPENDENCIES
   byebug
   capybara (~> 2.6.2)
   coffee-rails (~> 4.1.0)
+  games_admin!
   jbuilder (~> 2.0)
   jquery-rails
   rails (= 4.2.6)

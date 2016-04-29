@@ -1,4 +1,4 @@
-module GamesAdmin
+module TeamsAdmin
   module ApplicationHelper
   end
 end

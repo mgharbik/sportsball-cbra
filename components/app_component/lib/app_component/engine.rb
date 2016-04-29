@@ -11,9 +11,9 @@ module AppComponent
     end
 
     config.generators do |g|
-      # g.orm :active_record
+      g.orm :active_record
       g.template_engine :slim
-      # g.test_framework :rspec
+      g.test_framework :rspec
     end
   end
 end
