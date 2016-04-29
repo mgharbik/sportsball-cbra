@@ -9,8 +9,6 @@ RSpec.describe "games admin", :type => :feature do
   it "allows for the management of games" do
     visit '/games_admin/games'
 
-    click_link "Games"
-
     expect(page).to have_content 'UofL'
   end
 end
