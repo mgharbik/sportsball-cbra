@@ -1,6 +1,6 @@
-require_dependency "app_component/application_controller"
+require_dependency "games_admin/application_controller"
 
-module AppComponent
+module GamesAdmin
   class GamesController < ApplicationController
     before_action :set_game, only: [:show, :edit, :update, :destroy]
 
