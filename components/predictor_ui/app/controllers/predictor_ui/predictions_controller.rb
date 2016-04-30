@@ -1,4 +1,4 @@
-module AppComponent
+module PredictorUi
   class PredictionsController < ApplicationController
     def new
       @teams = AppComponent::Team.all

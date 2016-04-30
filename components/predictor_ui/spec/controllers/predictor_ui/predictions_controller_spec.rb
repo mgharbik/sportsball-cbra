@@ -1,5 +1,5 @@
-RSpec.describe AppComponent::PredictionsController, :type => :controller do
-  routes { AppComponent::Engine.routes }
+RSpec.describe PredictorUi::PredictionsController, :type => :controller do
+  routes { PredictorUi::Engine.routes }
 
   before do
     @team1 = create_team

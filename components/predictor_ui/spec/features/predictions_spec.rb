@@ -9,13 +9,13 @@ RSpec.describe "the prediction process", :type => :feature do
   end
 
   it "get a new prediction" do
-    visit '/app_component/'
+    visit "/"
 
-    click_link "Predictions"
+    # click_link "Predictions"
     select "UofL", from: "First team"
     select "UK", from: "Second team"
-    click_button 'What is it going to be'
+    click_button "What is it going to be"
 
-    expect(page).to have_content 'the winner will be UofL'
+    expect(page).to have_content "the winner will be UofL"
   end
 end
