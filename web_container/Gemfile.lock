@@ -10,13 +10,20 @@ PATH
   specs:
     app_component (0.0.1)
       jquery-rails (= 4.1.1)
-      predictor
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
       trueskill
     games_admin (0.0.1)
       app_component
       jquery-rails (= 4.1.1)
+      rails (~> 4.2.6)
+      slim-rails (= 3.0.1)
+    predictor (0.1.0)
+      trueskill
+    predictor_ui (0.0.1)
+      app_component
+      jquery-rails (= 4.1.1)
+      predictor
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
     teams_admin (0.0.1)
@@ -111,8 +118,6 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7.2)
       mini_portile2 (~> 2.0.0.rc2)
-    predictor (2.3.1)
-      redis (>= 3.0.0)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -143,7 +148,6 @@ GEM
     rake (11.1.2)
     rdoc (4.2.2)
       json (~> 1.4)
-    redis (3.2.2)
     rspec-core (3.4.4)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -218,6 +222,7 @@ DEPENDENCIES
   games_admin!
   jbuilder (~> 2.0)
   jquery-rails
+  predictor_ui!
   rails (= 4.2.6)
   rspec-rails (~> 3.4.2)
   sass-rails (~> 5.0)

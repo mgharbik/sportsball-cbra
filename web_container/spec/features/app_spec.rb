@@ -25,7 +25,6 @@ RSpec.describe "Engine 'App'", :type => :feature do
   end
 
   it "can predict" do
-    skip
     AppComponent::Team.create! name: "UofL"
     AppComponent::Team.create! name: "UK"
 
