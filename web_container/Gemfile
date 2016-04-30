@@ -6,6 +6,7 @@ path '../components' do
   gem 'games_admin'
   gem 'teams_admin'
   gem 'predictor_ui'
+  gem 'welcome_ui'
 end
 
 # Ensuring correct version of transitive dependency
