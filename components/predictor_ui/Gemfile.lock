@@ -13,18 +13,25 @@ PATH
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
       trueskill
+    games (0.0.1)
+      activerecord (~> 4.2.6)
+      teams
     predictor (0.1.0)
       trueskill
+    teams (0.0.1)
+      activerecord (~> 4.2.6)
 
 PATH
   remote: .
   specs:
     predictor_ui (0.0.1)
       app_component
+      games
       jquery-rails (= 4.1.1)
       predictor
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
+      teams
 
 GEM
   remote: https://rubygems.org/
