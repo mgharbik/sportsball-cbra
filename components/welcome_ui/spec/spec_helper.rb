@@ -8,8 +8,6 @@ require 'database_cleaner'
 require 'capybara/rails'
 require 'capybara/rspec'
 
-require 'app_component/test_helpers'
-
 Dir[WelcomeUi::Engine.root.join("spec/support/**/*.rb")].each {|f| require f}
 
 RSpec.configure do |config|
@@ -37,5 +35,4 @@ RSpec.configure do |config|
     end
   end
 
-  config.include AppComponent::ObjectCreationMethods
 end

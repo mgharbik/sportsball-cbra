@@ -12,7 +12,6 @@ PATH
       jquery-rails (= 4.1.1)
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
-      trueskill
     games (0.0.1)
       activerecord (~> 4.2.6)
       teams
@@ -184,11 +183,13 @@ DEPENDENCIES
   app_component!
   capybara (~> 2.6.2)
   database_cleaner (~> 1.5.1)
+  games!
   predictor!
   predictor_ui!
   rspec-rails (~> 3.4.2)
   shoulda-matchers (~> 2.5.0)
   sqlite3
+  teams!
   trueskill!
 
 BUNDLED WITH

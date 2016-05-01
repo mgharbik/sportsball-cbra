@@ -2,7 +2,7 @@
 
 exit_code=0
 
-echo "*** Running predictorUI engine specs"
+echo "*** Running welcomeUI engine specs"
 #bundle install --jobs=3 --retry=3
 #bundle exec rake db:create db:migrate
 RAILS_ENV=test bundle exec rake db:create db:migrate

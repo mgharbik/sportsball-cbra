@@ -5,7 +5,6 @@ PATH
       jquery-rails (= 4.1.1)
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
-      trueskill
     games (0.0.1)
       activerecord (~> 4.2.6)
       teams
@@ -161,7 +160,6 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.5)
     tilt (2.0.2)
-    trueskill (1.0.0)
     tzinfo (1.2.2)
       thread_safe (~> 0.1)
     xpath (2.0.0)

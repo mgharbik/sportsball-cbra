@@ -20,7 +20,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'rails', '~> 4.2.6'
   s.add_dependency 'jquery-rails', '4.1.1'
   s.add_dependency 'slim-rails', '3.0.1'
-  s.add_dependency 'trueskill'
 
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'rspec-rails', '~> 3.4.2'
