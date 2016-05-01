@@ -6,6 +6,8 @@ PATH
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
       trueskill
+    teams (0.0.1)
+      activerecord (~> 4.2.6)
 
 PATH
   remote: .
@@ -15,6 +17,7 @@ PATH
       jquery-rails (= 4.1.1)
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
+      teams
 
 GEM
   remote: https://rubygems.org/

@@ -21,6 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'slim-rails', '3.0.1'
 
   s.add_dependency 'app_component'
+  s.add_dependency 'teams'
 
   s.add_development_dependency 'sqlite3'
   s.add_development_dependency 'rspec-rails', '~> 3.4.2'
