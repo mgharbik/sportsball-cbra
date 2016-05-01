@@ -1,15 +1,4 @@
 module AppComponent::ObjectCreationMethods
-  def new_team(overrides = {})
-    defaults = {
-      name: "Some name #{counter}"
-    }
-    AppComponent::Team.new { |team| apply(team, defaults, overrides) }
-  end
-
-  def create_team(overrides = {})
-    new_team(overrides).tap(&:save!)
-  end
-
   def new_game(overrides = {})
     defaults = {
       first_team: -> { new_team },
