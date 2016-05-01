@@ -6,12 +6,18 @@ PATH
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
       trueskill
+    games (0.0.1)
+      activerecord (~> 4.2.6)
+      teams
+    teams (0.0.1)
+      activerecord (~> 4.2.6)
 
 PATH
   remote: .
   specs:
     games_admin (0.0.1)
       app_component
+      games
       jquery-rails (= 4.1.1)
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
@@ -168,6 +174,7 @@ DEPENDENCIES
   app_component!
   capybara (~> 2.6.2)
   database_cleaner (~> 1.5.1)
+  games!
   games_admin!
   rspec-rails (~> 3.4.2)
   shoulda-matchers (~> 2.5.0)

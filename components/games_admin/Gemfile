@@ -4,4 +4,5 @@ gemspec
 
 path '..' do
   gem 'app_component'
+  gem 'games'
 end
