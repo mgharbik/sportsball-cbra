@@ -7,7 +7,7 @@ gem 'trueskill',
     ref: 'e404f45af5b3fb86982881ce064a9c764cc6a901'
 
 path '..' do
-  gem 'app_component'
+  gem 'web_ui'
   gem 'predictor'
   gem 'teams'
   gem 'games'

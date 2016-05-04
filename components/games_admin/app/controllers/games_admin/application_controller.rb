@@ -1,5 +1,5 @@
 module GamesAdmin
   class ApplicationController < ActionController::Base
-    layout "app_component/application"
+    layout "web_ui/application"
   end
 end

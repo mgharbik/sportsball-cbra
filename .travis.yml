@@ -1,6 +1,12 @@
 gemfile:
   - web_container/Gemfile
-  - components/app_component/Gemfile
+  - components/welcome_ui/Gemfile
+  - components/predictor/Gemfile
+  - components/predictor_ui/Gemfile
+  - components/teams/Gemfile
+  - components/teams_admin/Gemfile
+  - components/games/Gemfile
+  - components/games_admin/Gemfile
 script:
   - ./test.sh
 before_install:

@@ -1,7 +1,7 @@
 require 'slim-rails'
 require 'jquery-rails'
 
-require 'app_component'
+require 'web_ui'
 require 'games'
 
 module GamesAdmin

@@ -1,25 +1,25 @@
 PATH
   remote: ..
   specs:
-    app_component (0.0.1)
-      jquery-rails (= 4.1.1)
-      rails (~> 4.2.6)
-      slim-rails (= 3.0.1)
     games (0.0.1)
       activerecord (~> 4.2.6)
       teams
     teams (0.0.1)
       activerecord (~> 4.2.6)
+    web_ui (0.0.1)
+      jquery-rails (= 4.1.1)
+      rails (~> 4.2.6)
+      slim-rails (= 3.0.1)
 
 PATH
   remote: .
   specs:
     games_admin (0.0.1)
-      app_component
       games
       jquery-rails (= 4.1.1)
       rails (~> 4.2.6)
       slim-rails (= 3.0.1)
+      web_ui
 
 GEM
   remote: https://rubygems.org/
@@ -169,7 +169,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  app_component!
   capybara (~> 2.6.2)
   database_cleaner (~> 1.5.1)
   games!
@@ -177,6 +176,7 @@ DEPENDENCIES
   rspec-rails (~> 3.4.2)
   shoulda-matchers (~> 2.5.0)
   sqlite3
+  web_ui!
 
 BUNDLED WITH
    1.11.2

@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 ruby '2.3.0'
 
 path '../components' do
-  gem 'app_component'
+  gem 'web_ui'
   gem 'games_admin'
   gem 'teams_admin'
   gem 'predictor_ui'

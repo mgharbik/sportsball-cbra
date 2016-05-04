@@ -5,7 +5,7 @@ require 'predictor_ui/version'
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "predictor_ui"
+  s.name        = 'predictor_ui'
   s.version     = PredictorUi::VERSION
   s.authors     = ['Gharbi Mohammed']
   s.email       = ['mgharbik@gmail.com']
@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'jquery-rails', '4.1.1'
   s.add_dependency 'slim-rails', '3.0.1'
 
-  s.add_dependency 'app_component'
+  s.add_dependency 'web_ui'
   s.add_dependency 'predictor'
   s.add_dependency 'teams'
   s.add_dependency 'games'
